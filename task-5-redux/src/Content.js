@@ -1,7 +1,7 @@
 import React from 'react'
-import {connect} from 'react-redux'
+import {useSelector, connect} from 'react-redux'
 import {Update_details} from './Update_details'
-import {useSelector} from 'react-redux';
+
 
 
 function Content({updateValue}) {
