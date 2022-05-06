@@ -1,7 +1,7 @@
 import React from 'react'
 import {useSelector} from 'react-redux';
 
-export default function Header({appState,updateValue}) {
+export default function Header() {
 const initialvalue = useSelector(state => state);
   return (
     <div class="header"> 
