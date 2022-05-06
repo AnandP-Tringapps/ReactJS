@@ -59,4 +59,4 @@ function mouse() {
   );
 }
 
-export default Mouse;
+export default mouse;
