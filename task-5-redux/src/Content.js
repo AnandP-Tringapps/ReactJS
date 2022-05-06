@@ -1,13 +1,12 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Update_details} from './Update_details'
-import {useDispatch, useSelector} from 'react-redux';
+import {useSelector} from 'react-redux';
 
 
-function Content({appState,updateValue}) {
+function Content({updateValue}) {
 
   const elementValue = useSelector(state => state);
-  const dispatch = useDispatch();
   function handleaddEvent(e){
     e.preventDefault();
     const event=document.querySelector('.input').value;
