@@ -2,8 +2,9 @@ import React from 'react'
 import {useDispatch, useSelector} from 'react-redux';
 
 export default function NavBar() {
-  const initialvalue = useSelector(state => state);
   const dispatch = useDispatch();
+  const initialvalue = useSelector(state => state);
+  
   return (
     <div id="navbar">
       <h2>NavBar</h2>
