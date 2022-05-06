@@ -2,7 +2,7 @@
 import './app.css';
 import { useState } from "react";
 
-function Mouse() {
+function mouse() {
 
   const [event, setEvent] = useState("Mousing Event");
 
