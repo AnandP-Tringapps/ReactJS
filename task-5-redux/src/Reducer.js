@@ -5,7 +5,7 @@ const Reducer=(state,action)=>{
   const inter=[action.event,action.event]
   
    switch(action.type){
-       case 'Update-details':
+     case 0: 'Update-details':
           return inter; 
           
         default:
