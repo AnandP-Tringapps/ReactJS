@@ -1,5 +1,5 @@
 
-import './App.css';
+import './app.css';
 import { useState } from "react";
 
 function Mouse() {
